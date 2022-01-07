@@ -6,25 +6,32 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Manager Data Science",
+    cardImage: "assets/images/experience-page/mphasis.jpg",
+    place: "NEXT Labs, Mpahsis",
+    time: "(Jan, 2021 - present)",
+    desp: "<li>Primarily working on a client project for Bain & Company helping them build a Phase 0 Due Diligence platform leveraging ML/DL.</li> <li>Created several components for MLOps platform PACEML(https://www.mphasis.com/home/innovation/nextlabs/pace-ml.html)</li> <li>Guided team members on various client engagements and solutions.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Assistant Manager Data Science",
+    cardImage: "assets/images/experience-page/mphasis.png",
+    place: "NEXT Labs, Mphasis",
+    time: "(May, 2017 - Dec, 2020)",
+    desp: "<li>Worked on several client projects and PoCs and delivered end-to-end solutions.</li><li>Built several cloud and cognitive components and services.</li><li>Worked on search, recommendation engine, search engine, predictive models, text summarization, text classification, data augmentation, active learning, incremental learning and so on.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Software Engineer II",
+    cardImage: "assets/images/experience-page/cisco.jpg",
+    place: "Cisco Systems Inc.,",
+    time: "(Aug, 2014 - Apr, 2017)",
+    desp:"<li>Worked on Nexus 1000v - virtual switch.</li><li>Designed RESTful Infrastructure in Node.js for users to configure and troubleshoot N1Kv.</li><li>Built a search tool using HTML, CSS and JavaScript to help users customize the RESTful APIs during deployment.</li><li>Worked on Virtual Application Cloud Segmentation (VACS) – Orchestration Software (Java) and designed several feature to import existing Nexus 1000v into VACS</li>",
+  },
+  {
+    title: "Programmer Analyst Trainee",
+    cardImage: "assets/images/experience-page/cts.jpg",
+    place: "Cognizant Technology Solutions",
+    time: "(Jul, 2010 - Apr, 2011)",
+    desp:"<li>Monitored the production system and fixed database related issues in Wal-Mart’s Global Management System.</li>",
   },
 ];
 
@@ -64,28 +71,22 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Grace Hopper Celebration India (Mar, 2015 - Present)",
+    cardImage: "assets/images/experience-page/ghci.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Part of the AI/ML/Data Science Commitee",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Springboard India (Apr, 2020 - Present)",
+    cardImage: "assets/images/experience-page/springboard.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Mentor for the Data Science Preparation and Career track,",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Mentor Me India, (Mar, 2013 - Aug, 2013)",
+    cardImage: "assets/images/experience-page/mentor.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Mentor Me India is an NGO that help children in low-income communities to grow to their full potential by supporting them with enduring one-to-one relationships with strong role models.Helped in creating the wiki page for the Mentor Me India portal.",
   },
 ];
 
@@ -150,61 +151,6 @@ const mentor = [
     image: "assets/images/experience-page/hackasolution.png",
     desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
   },
-  {
-    title: "UniGlobe Hacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/uniglobe.png",
-    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-  },
-  {
-    title: "AtlasHacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/atlas.png",
-    desp: "AtlasHacks II is a 3-day virtual hackathon that aims to foster creativity within hackers all around the world.",
-  },
-  {
-    title: "NeoHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/neo.png",
-    desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-  },
-  {
-    title: "Mission Inspired",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/mission.png",
-    desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-  },
-  {
-    title: "Hack3",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hack3.png",
-    desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
-  },
-  {
-    title: "JITHack",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/jithack.png",
-    desp: "JITHack is an upcoming virtual design and development hackathon organized by the students of Jyothy Institute of Technology, Bengaluru on June 26, 2021, where participants have 24 hours to build something incredible.",
-  },
-  {
-    title: "Recess Hacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/recess.png",
-    desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
-  },
-  {
-    title: "Citro Tech",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/citro.png",
-    desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-  },
-  {
-    title: "NHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/nhacks.png",
-    desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
-  }
-  
 
 ];
 
